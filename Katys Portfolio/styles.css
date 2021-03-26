@@ -246,13 +246,17 @@ body{
 }
 
 @media screen and (max-width: 768px){
+  .hero_container{
+    height:60%;
+  }
   .hero_heading{
-    font-size: 60px;
+    font-size: 50px;
   }
 
   .hero_description{
     font-size: 40px;
   }
+
 }
 
 
@@ -387,7 +391,7 @@ body{
     justify-content: center;
     width: 100%;
     margin: 0 auto;
-    height: 90%;
+    height: 80%;
   }
 
   .main_img--container{
@@ -673,6 +677,16 @@ body{
     padding: 10px;
     width: 100%;
   }
+  .footer_link--wrapper{
+    flex-direction: column;
+  }
+
+  .social_media-wrap{
+    flex-direction: column;
+  }
+  #footer_logo{
+    margin-bottom: 1rem;
+  }
 }
 
 /* Contact Form */
@@ -931,10 +945,10 @@ background: linear-gradient(to right, #a8e063, #56ab2f); /* W3C, IE 10+/ Edge, F
 }
 
 .testimonials_title {
-  font-size: 4rem;
-  background: #b92b27;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #1565C0, #b92b27);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #1565C0, #b92b27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-size: 3rem;
+  background: #bdc3c7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
   -webkit-background-clip: text;
   -moz-background-clip: text;
